@@ -10370,6 +10370,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["helmet", "npm:4.6.0"],
             ["jest", "npm:26.6.3"],
             ["nodemon", "npm:2.0.4"],
+            ["s3", "workspace:packages/s3"],
             ["source-map-loader", "virtual:e6118f2e88e3a29f2c712c9566ce1c8ca6770f76c2473c167fb7a8a05ed6826535f62fc9ba847429422d5edc582f6a7cca36a1d4576c006d0d27debded0812fe#npm:1.1.0"],
             ["source-map-support", "npm:0.5.20"],
             ["supertest", "npm:4.0.2"],

@@ -9020,6 +9020,7 @@ fsevents@^1.2.7:
     helmet: ^4.6.0
     jest: ^26.6.3
     nodemon: ^2.0.4
+    s3: "workspace:packages/s3"
     source-map-loader: ^1.0.1
     source-map-support: ^0.5.20
     supertest: ^4.0.2

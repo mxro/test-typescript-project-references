@@ -26,6 +26,7 @@
     "aws-serverless-express": "^3.3.8",
     "cors": "^2.8.5",
     "helmet": "^4.6.0",
+    "s3": "workspace:packages/s3",
     "source-map-support": "^0.5.20"
   },
   "devDependencies": {
