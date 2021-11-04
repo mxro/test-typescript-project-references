@@ -1,0 +1,8 @@
+{
+  "$schema": "./schemas/package.schema.json",
+  "name": "s3",
+  "template": "s3",
+  "templateVersion": "0.1.34",
+  "configuration": {},
+  "deployments": []
+}
