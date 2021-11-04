@@ -52,6 +52,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@goldstack/nodemonx", "npm:0.3.20"],
             ["@goldstack/utils-typescript-references", "npm:0.1.2"],
+            ["@monorepo-utils/workspaces-to-typescript-project-references", "npm:2.7.2"],
             ["@types/jest", "npm:27.0.2"],
             ["@types/node", "npm:16.11.0"],
             ["@typescript-eslint/eslint-plugin", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:4.14.0"],
@@ -1406,6 +1407,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["upath", "npm:2.0.1"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:2.7.0", {
+          "packageLocation": "./.yarn/cache/@monorepo-utils-package-utils-npm-2.7.0-62383e9f57-1126636688.zip/node_modules/@monorepo-utils/package-utils/",
+          "packageDependencies": [
+            ["@monorepo-utils/package-utils", "npm:2.7.0"],
+            ["globby", "npm:11.0.2"],
+            ["load-json-file", "npm:6.2.0"],
+            ["upath", "npm:2.0.1"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["@monorepo-utils/workspaces-to-typescript-project-references", [
@@ -1414,6 +1425,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@monorepo-utils/workspaces-to-typescript-project-references", "npm:2.6.2"],
             ["@monorepo-utils/package-utils", "npm:2.4.4"],
+            ["comment-json", "npm:3.0.3"],
+            ["meow", "npm:7.1.1"],
+            ["semver-match", "npm:0.1.1"],
+            ["upath", "npm:2.0.1"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:2.7.2", {
+          "packageLocation": "./.yarn/cache/@monorepo-utils-workspaces-to-typescript-project-references-npm-2.7.2-1889977339-7065a24cd6.zip/node_modules/@monorepo-utils/workspaces-to-typescript-project-references/",
+          "packageDependencies": [
+            ["@monorepo-utils/workspaces-to-typescript-project-references", "npm:2.7.2"],
+            ["@monorepo-utils/package-utils", "npm:2.7.0"],
             ["comment-json", "npm:3.0.3"],
             ["meow", "npm:7.1.1"],
             ["semver-match", "npm:0.1.1"],
@@ -13856,6 +13879,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["root-workspace-0b6124", "workspace:."],
             ["@goldstack/nodemonx", "npm:0.3.20"],
             ["@goldstack/utils-typescript-references", "npm:0.1.2"],
+            ["@monorepo-utils/workspaces-to-typescript-project-references", "npm:2.7.2"],
             ["@types/jest", "npm:27.0.2"],
             ["@types/node", "npm:16.11.0"],
             ["@typescript-eslint/eslint-plugin", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:4.14.0"],

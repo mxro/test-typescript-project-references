@@ -1164,6 +1164,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@monorepo-utils/package-utils@npm:^2.7.0":
+  version: 2.7.0
+  resolution: "@monorepo-utils/package-utils@npm:2.7.0"
+  dependencies:
+    globby: ^11.0.1
+    load-json-file: ^6.2.0
+    upath: ^2.0.1
+  checksum: 11266366885c0bd4bd25a6fb84af4d7aebffbc2a65fc85b17c7e129db6fd212ce3e3fe9a803ac5bb13e58dd4f4cfbec69445e19ccc6e34c52b78b35205aff489
+  languageName: node
+  linkType: hard
+
 "@monorepo-utils/workspaces-to-typescript-project-references@npm:^2.6.2":
   version: 2.6.2
   resolution: "@monorepo-utils/workspaces-to-typescript-project-references@npm:2.6.2"
@@ -1176,6 +1187,21 @@ __metadata:
   bin:
     workspaces-to-typescript-project-references: bin/cmd.js
   checksum: c0b92437965ddd5fc2c413c295ae288e2b82d68ebba7173e128c62a46960f6fea9856eba54c4c9e62dc546917f06dce215598e246eaec89f4a02f616536cad16
+  languageName: node
+  linkType: hard
+
+"@monorepo-utils/workspaces-to-typescript-project-references@npm:^2.7.2":
+  version: 2.7.2
+  resolution: "@monorepo-utils/workspaces-to-typescript-project-references@npm:2.7.2"
+  dependencies:
+    "@monorepo-utils/package-utils": ^2.7.0
+    comment-json: ^3.0.3
+    meow: ^7.1.1
+    semver-match: 0.1.1
+    upath: ^2.0.1
+  bin:
+    workspaces-to-typescript-project-references: bin/cmd.js
+  checksum: 7065a24cd66a9000b561f1bf5d201f08906ecb422dabdc7de93f64b945f33361c1cdc63de0a7892edbeea1c5664ae8124468a35333a512b75724174cfb4e0860
   languageName: node
   linkType: hard
 
@@ -12142,6 +12168,7 @@ resolve@^1.18.1:
   dependencies:
     "@goldstack/nodemonx": 0.3.20
     "@goldstack/utils-typescript-references": 0.1.2
+    "@monorepo-utils/workspaces-to-typescript-project-references": ^2.7.2
     "@types/jest": ^27.0.2
     "@types/node": ^16.11.0
     "@typescript-eslint/eslint-plugin": ^4.14.0

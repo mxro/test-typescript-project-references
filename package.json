@@ -1,5 +1,7 @@
 {
   "private": true,
+  "license": "",
+  "author": "",
   "sideEffects": false,
   "workspaces": [
     "packages/*"
@@ -12,6 +14,7 @@
     "deploy": "yarn workspaces foreach run deploy \"$@\"",
     "fix-project-references": "utils-typescript-references --skipRoot",
     "fix-project-references-all": "utils-typescript-references",
+    "fix-project-references-monorepo-utils": "workspaces-to-typescript-project-references --includesRoot",
     "format": "prettier --loglevel log --config .prettierrc.json --write .",
     "format-check": "prettier --loglevel log --config .prettierrc.json --check .",
     "infra": "yarn workspaces foreach run infra \"$@\"",
@@ -21,9 +24,11 @@
     "test-ci": "yarn workspaces foreach --parallel run test-ci",
     "test-watch": "nodemonx --watch . --exec 'yarn test-ci'"
   },
+  "dependencies": {},
   "devDependencies": {
     "@goldstack/nodemonx": "0.3.20",
     "@goldstack/utils-typescript-references": "0.1.2",
+    "@monorepo-utils/workspaces-to-typescript-project-references": "^2.7.2",
     "@types/jest": "^27.0.2",
     "@types/node": "^16.11.0",
     "@typescript-eslint/eslint-plugin": "^4.14.0",
@@ -39,7 +44,5 @@
     "prettier": "^2.2.1",
     "react": "^17.0.2",
     "typescript": "^4.4.3"
-  },
-  "author": "",
-  "license": ""
+  }
 }
