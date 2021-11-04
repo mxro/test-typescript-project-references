@@ -30,10 +30,13 @@
   "include": [],
   "references": [
     {
-      "path": "../templates-lib/packages/utils-nodemonx"
+      "path": "packages/app-nextjs-bootstrap"
     },
     {
-      "path": "../templates-lib/packages/utils-typescript-references"
+      "path": "packages/lambda-express"
+    },
+    {
+      "path": "packages/s3"
     }
   ]
 }

@@ -10,9 +10,5 @@
     "outDir": "dist",
     "baseUrl": "."
   },
-  "references": [
-    {
-      "path": "../../../templates-lib/packages/template-lambda-express"
-    }
-  ]
+  "references": []
 }
